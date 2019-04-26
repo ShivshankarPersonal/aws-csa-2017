@@ -2,12 +2,11 @@
 ![AWS- CSA Associate Logo](aws-csa-associate.png)
 # AWS CSA 2017 Study Guide
 
-#### The purpose of this guide is to share my notes taken while studying for the AWS CSA re-certification exam. I use the awesome ACloud.guru course & other material listed below which I feel will help certification aspirants for purpose of self-study and quick revision. The course content copyrights are owned by [ACloud Guru Ltd.](https://acloud.guru)
+ [ACloud Guru Ltd.](https://acloud.guru)
 
-#### You can also read this on [Gitbooks](https://agasthik.gitbooks.io/aws-csa/content/) or [Medium](https://medium.com/@agasthi.kothurkar/aws-csa-2017-study-guide-90fa9ee7c9d0) and download the guide in PDF format [here](https://www.gitbook.com/download/pdf/book/agasthik/aws-csa)
+ [Gitbooks](https://agasthik.gitbooks.io/aws-csa/content/) or [Medium](https://medium.com/@agasthi.kothurkar/aws-csa-2017-study-guide-90fa9ee7c9d0) PDF format [here](https://www.gitbook.com/download/pdf/book/agasthik/aws-csa)
 
-################# IMPORTANT NOTE #################
-### I prepared these notes while studying for my re-certification exam in May 2017. I haven’t kept this updated as much as I would have liked to. If you notice any changes in the AWS policies / services, please add a comment below and I’ll update this. Also, for any omissions and corrections kindly open a PR on this [Github Repo](https://github.com/agasthik/aws-csa-2017/)
+ [Github Repo](https://github.com/agasthik/aws-csa-2017/)
 
 
 Table of Contents                                                                                                                       
@@ -222,7 +221,7 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - Direct Connect – Connect your physical DCs to AWS using dedicated telephone lines
 
-  - Compute 
+  - Compute 
 
       - EC2 – Elastic Compute Cloud.
 
@@ -250,7 +249,7 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - DynamoDB - Non relational DB (important for developer exam)
 
-      - Redshift  - Data warehousing system - 
+      - Redshift  - Data warehousing system - 
 
       - ElastiCache - Cloud in-memory DB (important for developer / architect exam)
 
@@ -258,7 +257,7 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - Snowball - Transfer Data - next step over Export Import gateway. Store all your data from enterprise into Snowball and then ship to AWS. Also released Snowball edge – add compute capacity to storage device – so that you can run analytics on top of the huge dataset collected, without having to transfer to cloud. AWS Lambda is supported on Snowball edge.
 
-      - DMS - Database migration services - migrate existing DBs to Cloud, also migrate existing Cloud DBs to other regions. Can migrate from Oracle/MySQL/PostgreSQL/ to Aurora.  
+      - DMS - Database migration services - migrate existing DBs to Cloud, also migrate existing Cloud DBs to other regions. Can migrate from Oracle/MySQL/PostgreSQL/ to Aurora.  
 
       - SMS - Server migration services - migrate existing VMs on premise to the Cloud -up to 50 concurrent ones.
 
@@ -272,7 +271,7 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - Elastic Search – Search service which uses the Elastic product
 
-      - Kinesis - streaming and analysis real time data (important for architect exam). used for collating large amounts of data streamed from multiple sources
+      - Kinesis - streaming and analysis real time data (important for architect exam). used for collating large amounts of data streamed from multiple sources
 
       - Data Pipeline - move data from one place to another. e.g. S3 into DynamoDB and vice versa
 
@@ -284,15 +283,15 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - Inspector - Agent which inspects your VMs and does security reporting
 
-      - Certificate Manager – free SSL certs for your domain names.
+      - Certificate Manager – free SSL certs for your domain names.
 
-      - Directory Service - (important for architect exam)
+      - Directory Service - (important for architect exam)
 
-      - WAF - Web Application Firewall. Allows application level protection. Different from traditional network level firewalls. You can inspect headers / content
+      - WAF - Web Application Firewall. Allows application level protection. Different from traditional network level firewalls. You can inspect headers / content
 
       - Artifacts - All Documentation - under compliance and reports.
 
-  - Management Tools (important for architect exam)
+  - Management Tools (important for architect exam)
 
       - Cloud Watch - monitor performance of AWS environment – standard infrastructure metrics.
 
@@ -312,7 +311,7 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - SWF - Simple Workflow Service. Used in Amazon fulfillment center.
 
-      - API Gateway - Create, Publish & monitor API services. Access back-end services. 
+      - API Gateway - Create, Publish & monitor API services. Access back-end services. 
 
       - AppStream - Stream desktop services via browser
 
@@ -322,9 +321,9 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - Code Commit - GitHub
 
-      - Code Build - pay by minute of build & compilation
+      - Code Build - pay by minute of build & compilation
 
-      - Code Deploy – deploy code to EC2 instances.
+      - Code Deploy – deploy code to EC2 instances.
 
       - Code Pipeline – Track code versions in different environments.
 
@@ -332,7 +331,7 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - Mobile Hub - for mobile apps - separate console.
 
-      - Cognito - identity provider for mobile applications. Social identity providers – Gmail, Facebook OAuth providers.  
+      - Cognito - identity provider for mobile applications. Social identity providers – Gmail, Facebook OAuth providers.  
 
       - Device Farm - testing your apps across multitude of devices
 
@@ -364,15 +363,15 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 
       - Machine Learning – based on dataset, AWS will predict outcomes for future decisions – based on demographics etc.
 
-      - Rekognition – Image recognition, Facial recognition based on Databases.
+      - Rekognition – Image recognition, Facial recognition based on Databases.
 
-  - Messaging  (important for associate exam)
+  - Messaging  (important for associate exam)
 
-      - SNS – Notify by email / text messages/ http-end points
+      - SNS – Notify by email / text messages/ http-end points
 
-      - SQS - Post messages to Queue. De-couple your applications.
+      - SQS - Post messages to Queue. De-couple your applications.
 
-      - SES – send email via AWS
+      - SES – send email via AWS
 
 # Identity & Access Management
 
@@ -480,7 +479,7 @@ Using Access Key ID and Secret Access Key – can be used only via accessing pro
 
   - Max 100 S3 buckets per account by default.
 
-  - Individual Amazon S3 objects can range in size from a minimum of **0 bytes** to a maximum of **5 terabytes**. The largest object that can be uploaded in a single PUT is **5 gigabytes**. For objects larger than **100 megabytes**, customers should consider using the Multipart Upload capability.
+  - Individual Amazon S3 objects can range in size from a minimum of **0 bytes** to a maximum of **5 terabytes**. The largest object that can be uploaded in a single PUT is **5 gigabytes**. For objects larger than **100 megabytes**, customers should consider using the Multipart Upload capability.
 
 ### S3 Versioning
 
@@ -1039,19 +1038,19 @@ Domain Registrars - assign domain names under one or more top level domain names
 
 ### Types of DNS Records -
 
-1. SOA Record 
+1. SOA Record 
 
-2. NS Record - AWS is now a Domain Registrar as well. 
+2. NS Record - AWS is now a Domain Registrar as well. 
 
-3. A Record - fundamental 
+3. A Record - fundamental 
 
 4. CNAME - Canonical - resolve one domain name to another. Can’t use CNAME for Naked domains.
 
-5. ALIAS record - only on AWS - are used to map resource record sets in your hosted zone to ELBs, Cloud Front Distribution, or S3 buckets that are configured as websites. E.g. you can have DNS names which point to ELB domain names -w/o the need for changing IP when ELB Ip changes.  Route 53 automatically recognizes changes in the record sets. Most common usage- map naked domain name (zone apex) to ELB names. Always use Alias v/s CNAME as Alias has no charges. Answering CNAME queries has a cost on Route53
+5. ALIAS record - only on AWS - are used to map resource record sets in your hosted zone to ELBs, Cloud Front Distribution, or S3 buckets that are configured as websites. E.g. you can have DNS names which point to ELB domain names -w/o the need for changing IP when ELB Ip changes.  Route 53 automatically recognizes changes in the record sets. Most common usage- map naked domain name (zone apex) to ELB names. Always use Alias v/s CNAME as Alias has no charges. Answering CNAME queries has a cost on Route53
 
 6. AAAA Record – Ipv6
 
-TTL - Cache the DNS record for TTL seconds. Before DNS migration, shorten the TTLs - so no more responses are cached. 
+TTL - Cache the DNS record for TTL seconds. Before DNS migration, shorten the TTLs - so no more responses are cached. 
 
 ### Hosted Zone
 
@@ -1389,7 +1388,7 @@ With RDS scaling is not so easy, you have to use a bigger instance or add read r
 
   - When you have deployed an RDS database into multiple availability zones, can you use the secondary database as an independent read node? – **No**
 
-  - RDS automatically creates RDS Security Group w/ TCP port # 3306 enabled. 
+  - RDS automatically creates RDS Security Group w/ TCP port # 3306 enabled. 
 
   - In VPC Security Group, the answer would be YES because you will have manually specify access to port & protocol.
 
@@ -1459,7 +1458,7 @@ To use AWS Stencils download them at the [AWS Simple Icons for Architecture Diag
 
   - In each VPC you create, 5 IP addresses are reserved by AWS for itself. First 4 and last IP in the CIDR block.
 
-  - You can't change the size of a VPC after you create it. If your VPC is too small to meet your needs, create a new, larger VPC, and then migrate your instances to the new VPC. To do this, create AMIs from your running instances, and then launch replacement instances in your new, larger VPC. You can then terminate your old instances, and delete your smaller VPC. 
+  - You can't change the size of a VPC after you create it. If your VPC is too small to meet your needs, create a new, larger VPC, and then migrate your instances to the new VPC. To do this, create AMIs from your running instances, and then launch replacement instances in your new, larger VPC. You can then terminate your old instances, and delete your smaller VPC. 
 
   - You can’t attached multiple Internet Gateways to the VPC to boost performance.
 
@@ -2236,7 +2235,7 @@ Side Note - Difference between Object Store (Files) and Block Store (DB). Dropbo
 
   - VPN connections are routed over internet. Can be setup in minutes.
 
-  - AWS Direct Connect lets you establish a dedicated network connection between your network and one of the AWS Direct Connect locations. 
+  - AWS Direct Connect lets you establish a dedicated network connection between your network and one of the AWS Direct Connect locations. 
 
   - Direct Connect takes weeks/ months to setup
 
@@ -2268,9 +2267,9 @@ Side Note - Difference between Object Store (Files) and Block Store (DB). Dropbo
 
 Q&A which I got incorrect.
 
-1. What does an AWS Region consist of? - A distinct location within a geographic area designed to provide high availability to a specific geography.
+1. What does an AWS Region consist of? - A distinct location within a geographic area designed to provide high availability to a specific geography.
 
-2. Which AWS service is effectively a NAS in the cloud, allowing you to connect it to multiple EC2 instances at once? - EFS (Elastic File System). Note difference from EBS which is directly attached to an EC2 Instance. 
+2. Which AWS service is effectively a NAS in the cloud, allowing you to connect it to multiple EC2 instances at once? - EFS (Elastic File System). Note difference from EBS which is directly attached to an EC2 Instance. 
 
 3. You need a service that will aggregate your data from multiple data sources (S3, DynamoDB, RDS, etc.) and provide business intelligence based on this data. Which AWS service should you use? - Quick Sight
 
@@ -2294,7 +2293,7 @@ In some cases, leaving your resources running maximizes your free tier benefits.
 
 When you start an Amazon EC2 instance, you must select an Amazon Machine Image (AMI) that is eligible for the free tier. Because of licensing restrictions, some AMIs are not eligible for the free tier.
 
-AMIs that are eligible for the free tier are marked in the Amazon EC2 Launch Wizard as **Free tier eligible**. The free tier allotment for Linux and Microsoft Windows instances is counted separately; you can run 750 hours of a Linux t2.micro or t1.micro instance plus 750 hours of a Windows t2.micro or t1.micro instance each month for the first 12 months.
+AMIs that are eligible for the free tier are marked in the Amazon EC2 Launch Wizard as **Free tier eligible**. The free tier allotment for Linux and Microsoft Windows instances is counted separately; you can run 750 hours of a Linux t2.micro or t1.micro instance plus 750 hours of a Windows t2.micro or t1.micro instance each month for the first 12 months.
 
 Third-party applications or services from AWS Marketplace are not eligible for the free tier.
 
@@ -2306,11 +2305,11 @@ US Standard Region is renamed to US East (Northern Virginia) to keep consistency
 
   - Amazon RDS can automatically back up your database and keep your database software up to date with the latest version.
 
-  - With optional [Multi-AZ deployments](https://aws.amazon.com/rds/faqs/#36), Amazon RDS also manages synchronous data replication across Availability Zones with automatic failover.
+  - With optional [Multi-AZ deployments](https://aws.amazon.com/rds/faqs/#36), Amazon RDS also manages synchronous data replication across Availability Zones with automatic failover.
 
   - You are still responsible for managing the database settings that are specific to your application. You'll need to build the relational schema that best fits your use case and are responsible for any performance tuning to optimize your database for your application’s workflow – **RDS does not do performance tuning**.
 
-  - Amazon RDS enables you to run a fully featured relational database while offloading database administration. Using one of our many relational database AMIs on [Amazon EC2](https://aws.amazon.com/ec2/) allows you to manage your own relational database in the cloud
+  - Amazon RDS enables you to run a fully featured relational database while offloading database administration. Using one of our many relational database AMIs on [Amazon EC2](https://aws.amazon.com/ec2/) allows you to manage your own relational database in the cloud
 
   - By default, customers are allowed to have up to a total of 40 Amazon RDS DB instances. Of those 40, up to 10 can be Oracle or SQL Server DB instances under the "License Included" model.
 
@@ -2324,11 +2323,11 @@ US Standard Region is renamed to US East (Northern Virginia) to keep consistency
 
 Yes. You can do so by creating a DB snapshot of your existing DB instance, restoring from the DB snapshot to create a new DB instance, and then initiating a version upgrade for the new DB instance.
 
-  - Functionally, reserved instances and on-demand DB instances are exactly the same. The only difference is how your DB instance(s) are billed: With Reserved Instances, you purchase a one or three year reservation and in return receive a lower effective hourly usage rate 
+  - Functionally, reserved instances and on-demand DB instances are exactly the same. The only difference is how your DB instance(s) are billed: With Reserved Instances, you purchase a one or three year reservation and in return receive a lower effective hourly usage rate 
 
   - Reserved instances are purchased for the Region rather than for the Availability Zone. RI pricing is not applicable when changing region or any of the instance attributes.
 
-  - Amazon RDS uses EBS volumes for database and log storage. Depending on the size of storage requested, Amazon RDS automatically stripes across multiple EBS volumes to enhance IOPS performance. For MySQL and Oracle, for an existing DB instance, you may observe some I/O capacity improvement if you scale up your storage. 
+  - Amazon RDS uses EBS volumes for database and log storage. Depending on the size of storage requested, Amazon RDS automatically stripes across multiple EBS volumes to enhance IOPS performance. For MySQL and Oracle, for an existing DB instance, you may observe some I/O capacity improvement if you scale up your storage. 
 
   - When increasing storage, no availability issues for DB. When scaling compute, temporary unavailability is experienced – set maintenance windows accordingly.
 
@@ -2336,7 +2335,7 @@ Yes. You can do so by creating a DB snapshot of your existing DB instance, resto
 
   - Q: What is the difference between automated backups and DB Snapshots?
 
-The automated backup feature of Amazon RDS enables point-in-time recovery of your DB instance. When automated backups are turned on for your DB Instance, Amazon RDS automatically performs a full daily snapshot of your data (during your preferred backup window) and captures transaction logs (as updates to your DB Instance are made). 
+The automated backup feature of Amazon RDS enables point-in-time recovery of your DB instance. When automated backups are turned on for your DB Instance, Amazon RDS automatically performs a full daily snapshot of your data (during your preferred backup window) and captures transaction logs (as updates to your DB Instance are made). 
 
 DB Snapshots are user-initiated and enable you to back up your DB instance in a known state as frequently as you wish, and then restore to that specific state at any time
 
@@ -2346,19 +2345,19 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - Amazon RDS manages backups, software patching, automatic failure detection, read replicas and recovery whether your DB Instances are deployed inside or outside a VPC
 
-  - Amazon RDS supports encryption at rest for all database engines, using keys you manage using AWS Key Management Service (KMS). 
+  - Amazon RDS supports encryption at rest for all database engines, using keys you manage using AWS Key Management Service (KMS). 
 
   - Yes. AWS CloudTrail is a web service that records AWS API calls for your account and delivers log files to you.
 
-  - A database parameter group (DB Parameter Group) acts as a "container" for engine configuration values that can be applied to one or more DB Instances. 
+  - A database parameter group (DB Parameter Group) acts as a "container" for engine configuration values that can be applied to one or more DB Instances. 
 
 |If You Need|Consider Using|Product Type|
 |---|----|----|
-|A managed relational database in the cloud that you can launch in minutes with a just a few clicks.| Amazon RDS| Relational Database|
-|A fully managed MySQL compatible relational database with 5X performance and enterprise level features.| Amazon Aurora | Relational Database|
-|A managed NoSQL database that offers extremely fast performance, seamless scalability and reliability| Amazon DynamoDB| NoSQL Database|
-|A fast, fully managed, petabyte-scale data warehouse at less than a tenth the cost of traditional solutions.|Amazon Redshift| Data Warehouse|
-|To deploy, operate, and scale in-memory cache based on Memcached or Redis in the cloud.| Amazon ElastiCache| In-Memory Cache|
+|A managed relational database in the cloud that you can launch in minutes with a just a few clicks.| Amazon RDS| Relational Database|
+|A fully managed MySQL compatible relational database with 5X performance and enterprise level features.| Amazon Aurora | Relational Database|
+|A managed NoSQL database that offers extremely fast performance, seamless scalability and reliability| Amazon DynamoDB| NoSQL Database|
+|A fast, fully managed, petabyte-scale data warehouse at less than a tenth the cost of traditional solutions.|Amazon Redshift| Data Warehouse|
+|To deploy, operate, and scale in-memory cache based on Memcached or Redis in the cloud.| Amazon ElastiCache| In-Memory Cache|
 |Help migrating your databases to AWS easily and inexpensively with zero downtime.| AWS Database Migration Service| Database Migration|
 |To build flexible cloud-native directories for organizing hierarchies of data along multiple dimensions |Amazon Cloud Directory | Directory|
 
@@ -2367,7 +2366,7 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - After early December 2016, all newly created instances, reservations, volumes, and snapshots will be required to use the longer ID format. Need to upgrade certain SDKs and CLIs. If you interact with AWS resources via APIs, SDKs, or the AWS CLI, you might be impacted, depending on whether your software makes assumptions about the ID format when validating or persisting resource IDs
 
-  - Reservation IDs apply to all instances, and are different from Reserved Instances.  A reservation ID has a one-to-one relationship with an instance launch request, but can be associated with more than one instance if you launch multiple instances using the same launch request
+  - Reservation IDs apply to all instances, and are different from Reserved Instances.  A reservation ID has a one-to-one relationship with an instance launch request, but can be associated with more than one instance if you launch multiple instances using the same launch request
 
   - On windows instances, don’t use EC2 instance ID as part of computer name.
 
@@ -2399,7 +2398,7 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - EC2 Classic – older EC2 format. EC2-VPC – newer format which has default VPC created.
 
-  - If you created your account after 2013-12-04, it supports EC2-VPC only. If your accounts supports EC2-VPC only, AWS creates a *default VPC* for you.
+  - If you created your account after 2013-12-04, it supports EC2-VPC only. If your accounts supports EC2-VPC only, AWS creates a *default VPC* for you.
 
   - You can create reverse DNS records for Elastic IP address by requesting AWS. Forward DNS record must exist as a pre-requisite.
 
@@ -2449,11 +2448,11 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - Only HVM based AMIs can be used for Cluster Compute or Cluster GPU instances
 
-  - Amazon EC2 allows you to choose between Fixed Performance Instances (e.g. M3, C3, and R3) and Burstable Performance Instances (e.g. T2). 
+  - Amazon EC2 allows you to choose between Fixed Performance Instances (e.g. M3, C3, and R3) and Burstable Performance Instances (e.g. T2). 
 
   - T2 instances’ baseline performance and ability to burst are governed by CPU Credits.
 
-  - Dense-storage instances are designed for workloads that require high sequential read and write access to very large data sets, such as Hadoop distributed computing, massively parallel processing data warehousing, and log processing applications. 
+  - Dense-storage instances are designed for workloads that require high sequential read and write access to very large data sets, such as Hadoop distributed computing, massively parallel processing data warehousing, and log processing applications. 
 
   - VM Import/Export enables customers to import Virtual Machine (VM) images in order to create Amazon EC2 instances. Customers can also export previously imported EC2 instances to create VMs
 
@@ -2521,7 +2520,7 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - Standard - IA is designed for larger objects and has a minimum object size of 128KB. Objects smaller than 128KB in size will incur storage charges as if the object were 128KB
 
-  - Amazon Glacier provides **three options for access to archives, from a few minutes to several hours**.  Expedited (1-5 minutes), Standard (3-5 hours), or Bulk retrievals (5-12 hours). File size limit < 250 mb
+  - Amazon Glacier provides **three options for access to archives, from a few minutes to several hours**.  Expedited (1-5 minutes), Standard (3-5 hours), or Bulk retrievals (5-12 hours). File size limit < 250 mb
 
   - Because Amazon S3 maintains the mapping between your user-defined object name and Amazon Glacier’s system-defined identifier, Amazon S3 objects that are stored using the Amazon Glacier option are only accessible through the Amazon S3 APIs or the Amazon S3 Management Console (**Objects cant be directly access via Glacier API**).
 
@@ -2561,7 +2560,7 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - AWS Direct Connect is a good choice for customers with a private networking requirement or have access to AWS Direct Connect exchanges. Transfer Acceleration is best for submitting data from distributed client locations over the public Internet, or where variable network conditions make throughput poor
 
-  - Amazon S3 dual-stack endpoints support requests to S3 buckets over IPv6 and IPv4. When you make a request to a dual-stack endpoint, the bucket URL resolves to an IPv6 or an IPv4 address.
+  - Amazon S3 dual-stack endpoints support requests to S3 buckets over IPv6 and IPv4. When you make a request to a dual-stack endpoint, the bucket URL resolves to an IPv6 or an IPv4 address.
 
 ## VPC
 
@@ -2589,9 +2588,9 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - How do I connect a VPC to my corporate datacenter? – By establishing a hardware VPN connection between your existing network and Amazon VPC.
 
-  - It is recommended using non-overlapping IP address ranges. 
+  - It is recommended using non-overlapping IP address ranges. 
 
-  - Default VPCs are assigned a CIDR range of 172.31.0.0/16. Default subnets within a default VPC are assigned /20 netblocks within the VPC CIDR range. 
+  - Default VPCs are assigned a CIDR range of 172.31.0.0/16. Default subnets within a default VPC are assigned /20 netblocks within the VPC CIDR range. 
 
   - Amazon VPC supports VPCs between /28 (in CIDR notation) and /16 in size for IPv4
 
@@ -2601,7 +2600,7 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - Primary private IP addresses are retained for the instance's or interface's lifetime. Secondary private IP addresses can be assigned, unassigned, or moved between interfaces or instances at any time.
 
-  - An IP address assigned to a running instance can only be used again by another instance once that original running instance is in a "terminated" state. 
+  - An IP address assigned to a running instance can only be used again by another instance once that original running instance is in a "terminated" state. 
 
   - The number of secondary private IP addresses you can assign depends on the instance type.
 
@@ -2609,7 +2608,7 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
   - Secure VPC via security groups (stateful) and ACLs (stateless)
 
-  - Security groups in a VPC specify which traffic is allowed to or from an Amazon EC2 instance. Network ACLs operate at the subnet level and evaluate traffic entering and exiting a subnet. **Network ACLs can be used to set both Allow and Deny rules.*  - Network ACLs do not filter traffic between instances in the same subnet. In addition, network ACLs perform stateless filtering while security groups perform stateful filtering. 
+  - Security groups in a VPC specify which traffic is allowed to or from an Amazon EC2 instance. Network ACLs operate at the subnet level and evaluate traffic entering and exiting a subnet. **Network ACLs can be used to set both Allow and Deny rules.*  - Network ACLs do not filter traffic between instances in the same subnet. In addition, network ACLs perform stateless filtering while security groups perform stateful filtering. 
 
   - Can Amazon EC2 instances within a VPC in one region communicate with Amazon EC2 instances within a VPC in another region? Yes, they can communicate using public IP addresses, NAT gateway, NAT instances, VPN connections, or Direct Connect connections.
 
@@ -2643,7 +2642,7 @@ DB Snapshots are user-initiated and enable you to back up your DB instance in a 
 
 ## SQS
 
-  - Amazon SQS can help you build a distributed application with decoupled components, 
+  - Amazon SQS can help you build a distributed application with decoupled components, 
 
   - Using SQS you can build a microservice architecture and use message queues to connect your microservices.
 
@@ -2693,11 +2692,11 @@ MD5 of Body:	a305cfffacad586f5a30573687e93b7b
 
 MD5 of Message Attributes:	caeec55758b361f94b3626437df44a32
 
-  - The visibility timeout is a period of time during which Amazon SQS prevents other consuming components from receiving and processing a message. Messages are hidden from other consumers for this duration. Assuming a reader has picked up a message and is unable to process and delete it within the same visibility timeout, the message is then visible again in the queue and can be picked up by other processors.
+  - The visibility timeout is a period of time during which Amazon SQS prevents other consuming components from receiving and processing a message. Messages are hidden from other consumers for this duration. Assuming a reader has picked up a message and is unable to process and delete it within the same visibility timeout, the message is then visible again in the queue and can be picked up by other processors.
 
   - The maximum visibility timeout for an Amazon SQS message is 12 hours.
 
-  - An Amazon SQS message can contain up to 10 metadata attributes. 
+  - An Amazon SQS message can contain up to 10 metadata attributes. 
 
   - **SQS Long Polling*  - - While the regular short polling returns immediately, even if the message queue being polled is empty, long polling doesn’t return a response until a message arrives in the message queue, or the long poll times out. No additional charge for long polling calls.
 
@@ -2731,19 +2730,19 @@ MD5 of Message Attributes:	caeec55758b361f94b3626437df44a32
 
 Q. What is the difference between a Domain and a Hosted Zone?
 
-A domain is a general DNS concept. Domain names are easily recognizable names for numerically addressed Internet resources. For example, *amazon.com *is a domain. A hosted zone is an Amazon Route 53 concept. A hosted zone is analogous to a traditional DNS zone file; it represents a collection of records that can be managed together, belonging to a single parent domain name. All resource record sets within a hosted zone must have the hosted zone’s domain name as a suffix. For example, the *amazon.com *hosted zone may contain records named *www.amazon.com*, and *www.aws.amazon.com*, but not a record named *www.amazon.ca*. 
+A domain is a general DNS concept. Domain names are easily recognizable names for numerically addressed Internet resources. For example, *amazon.com *is a domain. A hosted zone is an Amazon Route 53 concept. A hosted zone is analogous to a traditional DNS zone file; it represents a collection of records that can be managed together, belonging to a single parent domain name. All resource record sets within a hosted zone must have the hosted zone’s domain name as a suffix. For example, the *amazon.com *hosted zone may contain records named *www.amazon.com*, and *www.aws.amazon.com*, but not a record named *www.amazon.ca*. 
 
 Q. Does Amazon Route 53 use an anycast network?
 
 Yes. Anycast is a networking and routing technology that helps your end users’ DNS queries get answered from the optimal Route 53 location given network conditions.
 
-Each Amazon Route 53 account is limited to a maximum of 500 hosted zones and 10,000 resource record sets per hosted zone. 
+Each Amazon Route 53 account is limited to a maximum of 500 hosted zones and 10,000 resource record sets per hosted zone. 
 
 R53 supports all the well-known DNS types.  
 
 Amazon Route 53 offers ‘Alias’ records (an Amazon Route 53-specific virtual record). Alias records are used to map resource record sets in your hosted zone to Amazon Elastic Load Balancing load balancers, Amazon CloudFront distributions, AWS Elastic Beanstalk environments, or Amazon S3 buckets that are configured as websites. Alias records work like a CNAME record in that you can map one DNS name (example.com) to another ‘target’ DNS name (elb1234.elb.amazonaws.com). They differ from a CNAME record in that they are not visible to resolvers. Resolvers only see the A record and the resulting IP address of the target record.
 
- Queries to Alias records that are mapped to ELB load balancers are free. These queries are listed as "Intra-AWS-DNS-Queries" on the Amazon Route 53 usage report
+ Queries to Alias records that are mapped to ELB load balancers are free. These queries are listed as "Intra-AWS-DNS-Queries" on the Amazon Route 53 usage report
 
 Amazon Route 53 Traffic Flow is an easy-to-use and cost-effective global traffic management service.
 
@@ -2755,7 +2754,7 @@ A. Yes. To make it even easier for you to configure DNS settings for your domain
 
 Q. Will Private DNS work across AWS regions?
 
-Yes. DNS answers will be available within every VPC that you associate with the private hosted zone. Note that you will need to ensure that the VPCs in each region have connectivity with each other in order for resources in one region to be able to reach resources in another region. 
+Yes. DNS answers will be available within every VPC that you associate with the private hosted zone. Note that you will need to ensure that the VPCs in each region have connectivity with each other in order for resources in one region to be able to reach resources in another region. 
 
 Q. What happens if all of my endpoints are unhealthy?
 
@@ -2883,18 +2882,21 @@ You can use Route 53 health checks to check for the presence of a designated str
 
 [http://serverfault.com/questions/279482/what-is-the-difference-between-unicast-anycast-broadcast-and-multicast-traffic](http://serverfault.com/questions/279482/what-is-the-difference-between-unicast-anycast-broadcast-and-multicast-traffic)
 
-**Multicast** is like a broadcast that can cross subnets, but unlike broadcast does not touch all nodes. Nodes have to subscribe to a multicast group to receive information.
+**Multicast** is like a broadcast that can cross subnets, but unlike broadcast does not touch all nodes. Nodes have to subscribe to a multicast group to receive information.
 
-To use **Anycast** you advertise the same network in multiple spots of the Internet, and rely on shortest-path calculations to funnel clients to your multiple locations. As far the network nodes themselves are concerned, they're using a **unicast** connection to talk to your anycasted nodes. Anycast is announcing the same network in different *parts* of the network, in order to decrease the network hops needed to get to that network.
+To use **Anycast** you advertise the same network in multiple spots of the Internet, and rely on shortest-path calculations to funnel clients to your multiple locations. As far the network nodes themselves are concerned, they're using a **unicast** connection to talk to your anycasted nodes. Anycast is announcing the same network in different *parts* of the network, in order to decrease the network hops needed to get to that network.
 
 2. Shards
 
-A **database shard** is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a **shard** or **database shard**. Each shard is held on a separate database server instance, to spread load.
+A **database shard** is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a **shard** or **database shard**. Each shard is held on a separate database server instance, to spread load.
 
 3. **PV v/s HVM**
 
 HVM AMIs are presented with a fully virtualized set of hardware and boot by executing the master boot record of the root block device of your image. This virtualization type provides the ability to run an operating system directly on top of a virtual machine without any modification, as if it were run on the bare-metal hardware. The Amazon EC2 host system emulates some or all of the underlying hardware that is presented to the guest
 
-Paravirtual guests can run on host hardware that does not have explicit support for virtualization, but they cannot take advantage of special hardware extensions such as enhanced networking or GPU processing. 
+Paravirtual guests can run on host hardware that does not have explicit support for virtualization, but they cannot take advantage of special hardware extensions such as enhanced networking or GPU processing. 
 
 For the best performance, we recommend that you use current generation instance types and HVM AMIs when you launch your instances
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTU3OTk5NjEwXX0=
+-->
