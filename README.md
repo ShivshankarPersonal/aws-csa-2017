@@ -206,15 +206,17 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
  4. Machine Learning
 
 Difficulty levels
-cloud practitioner
-architect associate
-sysops admin associate
-developer associate
-security speciality
-big data specialty
-advanced networking specialty
-machine Learning Specialty
 
+ 1. cloud practitioner 
+ 2. architect associate 
+ 3. sysops admin associate 
+ 4. developer associate 
+ 5. security speciality 
+ 6. big data specialty 
+ 7. advanced networking specialty 
+ 8. machine Learning Specialty 
+ 9. Devops Pro 
+ 10. Solutions Architect Professional
 
 # AWS 10000 Feet Overview
 
@@ -2915,5 +2917,5 @@ Paravirtual guests can run on host hardware that does not have explicit support 
 
 For the best performance, we recommend that you use current generation instance types and HVM AMIs when you launch your instances
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzQwMTAzNyw1NTc5OTk2MTBdfQ==
+eyJoaXN0b3J5IjpbMTQ0NzEyMzkwMSw1NTc5OTk2MTBdfQ==
 -->
