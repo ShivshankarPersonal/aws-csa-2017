@@ -205,6 +205,8 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
  3. Security 
  4. Machine Learning
 
+Difficulty levels
+
 # AWS 10000 Feet Overview
 
 ## Global Infrastructure
@@ -2904,5 +2906,5 @@ Paravirtual guests can run on host hardware that does not have explicit support 
 
 For the best performance, we recommend that you use current generation instance types and HVM AMIs when you launch your instances
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTI0NTU4Myw1NTc5OTk2MTBdfQ==
+eyJoaXN0b3J5IjpbOTU5NzEwOTY1LDU1Nzk5OTYxMF19
 -->
