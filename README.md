@@ -199,10 +199,11 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 |Additional Exam Tips |9 | 53:39|
 
 # Speciality Tier
-advanced networking
-Big data
-Security
-Machine Learning
+
+ 1. advanced networking 
+ 2. Big data 
+ 3. Security 
+ 4. Machine Learning
 
 # AWS 10000 Feet Overview
 
@@ -2903,5 +2904,5 @@ Paravirtual guests can run on host hardware that does not have explicit support 
 
 For the best performance, we recommend that you use current generation instance types and HVM AMIs when you launch your instances
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjkwMTYwMSw1NTc5OTk2MTBdfQ==
+eyJoaXN0b3J5IjpbLTYzOTI0NTU4Myw1NTc5OTk2MTBdfQ==
 -->
