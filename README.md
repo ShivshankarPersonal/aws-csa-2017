@@ -198,7 +198,11 @@ The exam is approximately 60 questions in 80 minutes. Pass marks not advertised 
 |The Well Architected Framework |6 | 01:18:32|
 |Additional Exam Tips |9 | 53:39|
 
-**Speciality Tier**
+# Speciality Tier
+advanced networking
+Big data
+Security
+Machine Learning
 
 # AWS 10000 Feet Overview
 
@@ -2899,5 +2903,5 @@ Paravirtual guests can run on host hardware that does not have explicit support 
 
 For the best performance, we recommend that you use current generation instance types and HVM AMIs when you launch your instances
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MTEzODI1LDU1Nzk5OTYxMF19
+eyJoaXN0b3J5IjpbMTAyMjkwMTYwMSw1NTc5OTk2MTBdfQ==
 -->
